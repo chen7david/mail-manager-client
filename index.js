@@ -11,6 +11,7 @@ class MailClient {
             }
         })
     }
+    
     to(to){
         this._to = to
         return this
